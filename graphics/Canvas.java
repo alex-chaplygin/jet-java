@@ -19,7 +19,7 @@ public class Canvas {
     public BufferedImage img;
     
     /**
-     * загружает изображение из ресурса
+     * создает холст
      * @param img - изображение
      * @param x - координата x холста
      * @param y - координата y холста
