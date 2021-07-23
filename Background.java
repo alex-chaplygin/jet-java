@@ -20,7 +20,6 @@ public class Background extends GameObject {
 	canvases = new Canvas[NUM_CANVASES];
 	for (int i = 0; i < NUM_CANVASES; i++)
 	    canvases[i] = GraphicsEngine.addCanvas(new Canvas(img, 0, i * img.getHeight()));
-	deleted = false;
     }
 
     /**
