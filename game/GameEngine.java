@@ -2,6 +2,10 @@ package game;
 import graphics.Canvas;
 import graphics.GraphicsEngine;
 
+/**
+ * главный класс игры, содержит все объекты игрового мира
+ * обеспечивает движение объектов и проверку столкновений
+ */
 public class GameEngine {
     // максимальное число объектов
     final int MAX_OBJECTS = 100;
