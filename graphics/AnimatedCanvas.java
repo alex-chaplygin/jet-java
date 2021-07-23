@@ -7,7 +7,7 @@ public class AnimatedCanvas extends Canvas {
     int numFrames;
     // текущий кадр
     public int frame;
-    // ширина кадры
+    // ширина кадра
     int frameWidth;
     
     /**
